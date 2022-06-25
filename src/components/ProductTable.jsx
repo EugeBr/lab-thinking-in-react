@@ -3,7 +3,6 @@ import ProductRow from './ProductRow';
 function ProductTable(props) {
     const displayProducts = () => {
         return props.products.map((product) => {
-            // console.log(product);
             return (
                 <ProductRow
                     key={product.id}

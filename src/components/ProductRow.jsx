@@ -1,5 +1,4 @@
 function ProductRow (props) {
-    // console.log(props);
     const { name, price } = props.product;
     return (
         <tr>
